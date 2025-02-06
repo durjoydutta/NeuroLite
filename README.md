@@ -62,8 +62,6 @@ for k in range(50):
   # update parameters with gradient descent
   for p in mlp.parameters():
     p.data += -0.1 * p.grad
-  
-  print(k, loss.data)
 ```
 
 ### Tracing / Visualization  
