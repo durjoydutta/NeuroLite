@@ -5,7 +5,7 @@ implementing a small but functional Multi-Layer Perceptron (MLP) with automatic 
 for understanding backpropagation and neural network training. 🤖
 
 ---
-![41 parameter MLP](mlp_neural_net.png)
+![41 parameter MLP](mlp_neural_net.svg)
 
 ---
 
