@@ -1,17 +1,20 @@
-# NeuroLite
+# NeuroLite ⚡
 
 A basic & lightweight neural network, built from scratch. **NeuroLite** extends the ideas from `micrograd`, A tiny Autograd engine by [Karpathy](https://github.com/karpathy),
 implementing a small but functional Multi-Layer Perceptron (MLP) with automatic differentiation and visualization tools. It serves as a minimal yet powerful educational tool
-for understanding backpropagation and neural network training.
+for understanding backpropagation and neural network training. 🤖
 
+---
 ![41 parameter MLP](mlp_neural_net.png)
 
-### Features
+---
 
-- A custom-built **micrograd engine** similar to PyTorch's `autograd`.
-- A fully functional **MLP (MultiLayer Perceptron)** implementation.
-- **Graph visualization** of the computation graph using [GraphViz](https://graphviz.org/).
-- **Gradient-based optimization** via backpropagation.
+### Features 🌟
+
+- A custom-built **micrograd engine** similar to PyTorch's `autograd`. 🔧
+- A fully functional **MLP (MultiLayer Perceptron)** implementation. 🧠
+- **Graph visualization** of the computation graph using [GraphViz](https://graphviz.org/). 📊
+- **Gradient-based optimization** via backpropagation. 💥
 
 ---
 
@@ -62,6 +65,7 @@ for k in range(50):
   for p in mlp.parameters():
     p.data += -0.1 * p.grad
 ```
+---
 
 ### Tracing / Visualization  
 
@@ -77,4 +81,4 @@ draw_dot(loss)
 ```
 ### License
 
-MIT
+**MIT**
