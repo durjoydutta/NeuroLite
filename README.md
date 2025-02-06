@@ -18,12 +18,14 @@ for understanding backpropagation and neural network training. 🤖
 
 ---
 
-### Training a neural net
+### Training a neural net 🏋️‍♂️
 
 The notebook `mlp.ipynb` provides a full demonstration of training a **3-layer Multi-Layer Perceptron (MLP) binary classifier**.
 This is achieved by initializing a neural network from the `micrograd.mlp_neural_network` module, defining a **mean squared error (MSE) loss function**, and using **gradient descent** for optimization.
-As shown in the notebook, using an **MLP with three hidden layers (4, 4, 1 neurons each)**, we successfully learn to classify the given dataset.
-#### Initialization
+As shown in the notebook, using an **MLP with three hidden layers (4, 4, 1 neurons each)**, we successfully learn to classify the given dataset. ✅
+
+---
+#### Initialization 🚀
 ```python
 from micrograd.engine import Value
 import micrograd.mlp_neural_network as nn
@@ -48,7 +50,7 @@ ypred = [mlp(x) for x in xs]
 loss = sum([(yout - ygt)**2 for ygt, yout in zip(ys, ypred)]) 
 
 ```
-#### Training
+#### Training 💪
 ```python []
 for k in range(50):
   
@@ -67,7 +69,7 @@ for k in range(50):
 ```
 ---
 
-### Tracing / Visualization  
+### Tracing / Visualization 📈
 
 For added convenience, the notebook `mlp.ipynb` includes **computation graph visualizations** using `drawgraph`. The forward and backward passes of the
 **MLP neural network** are visualized by calling `draw_dot` on the loss function, displaying both **data values (left number in each node) and gradients
