@@ -33,11 +33,10 @@ xs = [
   [0.5, 1.0, 1.0],
   [1.0, 1.0, -1.0],
 ]
-# Desired target labels for each data point
 ys = [1.0, -1.0, -1.0, 1.0]  # Target values for binary classification
 
 # Initializing the MLP neural network with 3 input nodes and 3 layers: 4, 4, and 1 output node
-mlp = nn.MLP(3, [4, 4, 1])  # (nin: number of inputs, nouts: number of neurons at each layer)
+mlp = nn.MLP(3, [4, 4, 1])
 
 # Performing a forward pass through the network to get predicted outputs for each input
 ypred = [mlp(x) for x in xs]
