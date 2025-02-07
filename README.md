@@ -1,6 +1,6 @@
 # NeuroLite ⚡
 
-A basic & lightweight neural network, built from scratch. **NeuroLite** extends the ideas from `micrograd`, A tiny Autograd engine by [Karpathy](https://github.com/karpathy),
+A simple & lightweight neural network, built from scratch. **NeuroLite** extends the ideas from `micrograd`, A tiny Autograd engine by [Karpathy](https://github.com/karpathy),
 implementing a small but functional Multi-Layer Perceptron (MLP) with automatic differentiation and visualization tools. It serves as a minimal yet powerful educational tool
 for understanding backpropagation and neural network training. 🤖
 
